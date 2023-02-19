@@ -1,0 +1,47 @@
+.favorites-container {
+  max-width: 1180px;
+  min-height: 81vh;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.chars-cookies {
+  display: flex;
+
+  margin: 20px auto;
+  gap: 20px;
+  text-align: justify;
+  &-img {
+    height: 300px;
+    img {
+      height: 100%;
+    }
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+.comic-cookies {
+  display: flex;
+
+  margin: 20px auto;
+  gap: 20px;
+  text-align: justify;
+  &-img {
+    height: 300px;
+    img {
+      height: 100%;
+    }
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,64 @@
+.character-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 40px;
+}
+
+.char-profile {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  margin: 10px auto 100px auto;
+  gap: 50px;
+
+  &-txt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-name {
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #333;
+    font-size: 60px;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.char-pres {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.char-comic {
+  display: flex;
+
+  margin: 20px auto;
+  gap: 20px;
+  text-align: justify;
+  &-img {
+    height: 300px;
+    img {
+      height: 100%;
+    }
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 69vh;
+}

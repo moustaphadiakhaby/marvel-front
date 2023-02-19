@@ -1,0 +1,86 @@
+.comics-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.comic-list {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  min-height: 69vh;
+  gap: 30px;
+}
+.comicbook {
+  width: 200px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+
+  .comic-img {
+    position: relative;
+    img {
+      height: 300px;
+      width: 100%;
+    }
+
+    &:hover {
+      box-shadow: 1px 1px 30px crimson;
+      border: 1px red solid;
+      background-color: black;
+      position: relative;
+      display: flex;
+      .comic-text {
+        position: absolute;
+        top: 0;
+        padding: 0 5px;
+        text-shadow: 1px 1px 10px white;
+        display: block;
+        color: white;
+        height: 300px;
+        overflow: hidden;
+      }
+      img {
+        opacity: 50%;
+      }
+    }
+  }
+}
+
+.comic-title {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.comic-text {
+  display: none;
+}
+
+.comic-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .fav {
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    color: red;
+
+    height: 30px;
+    font-size: 30px;
+    &:hover {
+      cursor: pointer;
+      background-color: red;
+      color: white;
+    }
+  }
+}

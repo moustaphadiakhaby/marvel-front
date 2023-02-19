@@ -1,0 +1,64 @@
+@import url("../../assets/fonts/stylesheet.css");
+.header-container {
+  color: white;
+  background-color: #333;
+  padding: 20px;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-top {
+  gap: 30px;
+  display: flex;
+  width: 100%;
+}
+.header-top .logo {
+  display: flex;
+  height: 60px;
+}
+.header-top input {
+  flex: 1;
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid black;
+  color: #111;
+  font-size: 15px;
+  box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: none;
+}
+.header-top p {
+  color: white;
+  font-size: 400px;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.menu-icon {
+  color: white;
+}
+
+.header-bot {
+  width: 100%;
+  font-size: 40px;
+  text-shadow: red 1px 1px 0px;
+  font-family: marvel, sans-serif;
+  text-decoration: none;
+}
+
+.link {
+  line-height: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=Header.css.map */
